@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index3</title>
+</head>
+<body>
+<span th:text="${message}"></span>
+<br>
+<input type="text" th:value="${name}">
+<br>
+<!--拼接字符串-->
+<span th:text="|欢迎${username}来到优就业学习|"></span>
+<br>
+<span th:text="'欢迎'+${username}+'来到优就业学习'"></span>
+</body>
+</html>
